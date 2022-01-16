@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11282" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:32 IST">
+    <groups>
+    </groups>
+    <test name="ValiDateNavBar" duration-ms="6246" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:27 IST">
+      <class name="Academy.EndtoEndProject.ValiDateNavigationBar">
+        <test-method status="PASS" signature="inililix()[pri:0, instance:Academy.EndtoEndProject.ValiDateNavigationBar@6892b3b6]" name="inililix" is-config="true" duration-ms="2508" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inililix -->
+        <test-method status="PASS" signature="validateNavbar()[pri:0, instance:Academy.EndtoEndProject.ValiDateNavigationBar@6892b3b6]" name="validateNavbar" duration-ms="3548" started-at="2022-01-09T22:43:23 IST" finished-at="2022-01-09T22:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavbar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.EndtoEndProject.ValiDateNavigationBar@6892b3b6]" name="tearDown" is-config="true" duration-ms="132" started-at="2022-01-09T22:43:27 IST" finished-at="2022-01-09T22:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.EndtoEndProject.ValiDateNavigationBar -->
+    </test> <!-- ValiDateNavBar -->
+    <test name="ValiDateTittle" duration-ms="6612" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:27 IST">
+      <class name="Academy.EndtoEndProject.ValiDateTittle">
+        <test-method status="PASS" signature="inililix()[pri:0, instance:Academy.EndtoEndProject.ValiDateTittle@742ff096]" name="inililix" is-config="true" duration-ms="2508" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inililix -->
+        <test-method status="PASS" signature="validateApptittle()[pri:0, instance:Academy.EndtoEndProject.ValiDateTittle@742ff096]" name="validateApptittle" duration-ms="3943" started-at="2022-01-09T22:43:23 IST" finished-at="2022-01-09T22:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApptittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.EndtoEndProject.ValiDateTittle@742ff096]" name="tearDown" is-config="true" duration-ms="119" started-at="2022-01-09T22:43:27 IST" finished-at="2022-01-09T22:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.EndtoEndProject.ValiDateTittle -->
+    </test> <!-- ValiDateTittle -->
+    <test name="ValiDateHomepage" duration-ms="11282" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:32 IST">
+      <class name="Academy.EndtoEndProject.HomePage">
+        <test-method status="PASS" signature="inililix()[pri:0, instance:Academy.EndtoEndProject.HomePage@53fb3dab]" name="inililix" is-config="true" duration-ms="2540" started-at="2022-01-09T22:43:21 IST" finished-at="2022-01-09T22:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inililix -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.EndtoEndProject.HomePage@53fb3dab]" name="basePageNavigation" duration-ms="5716" started-at="2022-01-09T22:43:23 IST" data-provider="getData" finished-at="2022-01-09T22:43:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharan123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.EndtoEndProject.HomePage@53fb3dab]" name="basePageNavigation" duration-ms="2944" started-at="2022-01-09T22:43:29 IST" data-provider="getData" finished-at="2022-01-09T22:43:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pada123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.EndtoEndProject.HomePage@53fb3dab]" name="tearDown" is-config="true" duration-ms="70" started-at="2022-01-09T22:43:32 IST" finished-at="2022-01-09T22:43:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.EndtoEndProject.HomePage -->
+    </test> <!-- ValiDateHomepage -->
+  </suite> <!-- Suite -->
+</testng-results>

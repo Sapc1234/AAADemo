@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.EndtoEndProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ValiDateHomepage(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.EndtoEndProject.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="inililix"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.EndtoEndProject.HomePage -->
+    </classes>
+  </test> <!-- ValiDateHomepage(failed) -->
+  <test thread-count="5" verbose="0" name="ValiDateTittle(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.EndtoEndProject.ValiDateTittle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateApptittle"/>
+          <include name="inililix"/>
+        </methods>
+      </class> <!-- Academy.EndtoEndProject.ValiDateTittle -->
+    </classes>
+  </test> <!-- ValiDateTittle(failed) -->
+  <test thread-count="5" verbose="0" name="ValiDateNavBar(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.EndtoEndProject.ValiDateNavigationBar">
+        <methods>
+          <include name="inililix"/>
+          <include name="validateNavbar"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.EndtoEndProject.ValiDateNavigationBar -->
+    </classes>
+  </test> <!-- ValiDateNavBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

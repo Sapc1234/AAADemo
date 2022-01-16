@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.302">
+    <testcase classname="Login into Application" name="Positive test validating login" time="0.096">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Initialize the bowser with chrome.....................................undefined
+And Navigate to "http://www.qaclickacademy.com/" site.......................skipped
+And click on login page to land on secure login page........................skipped
+When user enters sharanpadashetty637@gmail.com and sapc@258 and logs in.....skipped
+Then verify that user is Successfully logged in.............................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Login into Application" name="Positive test validating login 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Initialize the bowser with chrome.....................................undefined
+And Navigate to "http://www.qaclickacademy.com/" site.......................skipped
+And click on login page to land on secure login page........................skipped
+When user enters sharanpadashetty637@gmail.com and Sapc@2110 and logs in....skipped
+Then verify that user is Successfully logged in.............................skipped
+]]></failure>
+    </testcase>
+</testsuite>
