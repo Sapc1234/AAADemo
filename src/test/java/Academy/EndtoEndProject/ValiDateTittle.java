@@ -24,6 +24,7 @@ public class ValiDateTittle extends base
 
 	{
 		driver = initializeDriver();
+		System.out.println("driver is Initialized");
 	}
 
 	@Test

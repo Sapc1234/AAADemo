@@ -40,6 +40,9 @@ public class ValiDateNavigationBar extends base
 		log.info("NavigationBar is Displayed");
 		
 		System.out.println("navigationbar is displayed");
+		
+		System.out.println("navigationbar is displayed1");
+		System.out.println("navigationbar is displayed2");
 
 	}
 
