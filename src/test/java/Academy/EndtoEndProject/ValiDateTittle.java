@@ -39,6 +39,8 @@ public class ValiDateTittle extends base
 		// lp.getTittle().getText()
 		log.info("tittle is Validated");
 		System.out.println("tittle is validated");
+		System.out.println("tittle is validated1");
+		System.out.println("tittle is validated2");
 
 	}
 
