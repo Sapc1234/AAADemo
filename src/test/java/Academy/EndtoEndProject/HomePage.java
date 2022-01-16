@@ -28,6 +28,8 @@ public class HomePage extends base
 	{
 		driver = initializeDriver();
 		log.info("Driver is Initialized");
+
+		System.out.println("Driver is Initialized");
 	}
 
 	@Test(dataProvider = "getData")
@@ -37,12 +39,12 @@ public class HomePage extends base
 
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to Homepage");
-
+		System.out.println("navigated to homepage");
 		LandingPage lp = new LandingPage(driver);
-	//	lp.getLogin().click();
-		
-		LoginPage lo= lp.getLogin();
-		//LoginPage lo = new LoginPage(driver);
+		// lp.getLogin().click();
+
+		LoginPage lo = lp.getLogin();
+		// LoginPage lo = new LoginPage(driver);
 		lo.getuserName().sendKeys(userName);
 		lo.getPassword().sendKeys(Password);
 		lo.login().click();
