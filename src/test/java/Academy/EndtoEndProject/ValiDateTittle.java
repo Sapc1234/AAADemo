@@ -37,6 +37,7 @@ public class ValiDateTittle extends base
 		Assert.assertEquals(lp.getTittle().getText(), "FEATURED COURSES");
 		// lp.getTittle().getText()
 		log.info("tittle is Validated");
+		System.out.println("tittle is validated");
 
 	}
 
