@@ -38,6 +38,8 @@ public class ValiDateNavigationBar extends base
 		// lp.getNavBar()
 		Assert.assertTrue(lp.getNavBar().isDisplayed());
 		log.info("NavigationBar is Displayed");
+		
+		System.out.println("navigationbar is displayed");
 
 	}
 
